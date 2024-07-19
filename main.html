@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/plate.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Spoon</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'CustomFont'; /* You can give it any name */
+            src: url('Tempting.ttf') format('truetype');
+        }
+
+        body {
+            background-color: rgb(34, 34, 34);
+            color: white;
+        }
+        .hero {
+            background-image: url('images/pealspoon.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .tint-background { /* ###### */
+            background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .menu-item {
+            margin-bottom: 30px;
+        }
+
+        /* .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, 0.75);
+        } */
+        .btn-primary {
+            background-color: rgb(70, 70, 70);
+            border-color: rgb(70, 70, 70);
+        }
+        .btn-primary:hover {
+            background-color: rgb(50, 50, 50);
+            border-color: rgb(50, 50, 50);
+        }
+
+        .navbar-brand {
+            font-family: 'CustomFont', sans-serif;
+        }
+
+        .custom-font {
+            font-family: 'CustomFont', sans-serif;
+        }
+
+        .extra-space {
+            margin-top: 20px; /* Adjust the value as needed */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark rgb(34, 34, 34)">
+        <a class="navbar-brand">Pearl Spoon</a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="tint-background">
+                <p class="lead" style="font-size: 2em;">Welcome to</p>
+                <h1 class="custom-font extra-space display-4">Pearl Spoon</h1>
+                <p class="lead">Delicious food for everyone</p>
+                <a href="menu.pdf" class="btn btn-primary btn-lg" download="Pearl Spoon Menu" >Download Our Menu</a>
+            </div> 
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="background-color: white; color: rgb(34, 34, 34);">
+        <div class="container">
+            <h2 class="text-center">Who are we?</h2>
+            <p class="text-center">We are Pearl Spoon, your go-to destination for delicious and wholesome breakfast and lunch options! 
+                At Pearl Spoon, we pride ourselves on serving a diverse menu crafted from the freshest ingredients, with a special focus on halaal
+                 dishes to cater to all dietary needs. Our cozy and inviting atmosphere is perfect for enjoying a leisurely meal with family and friends.
+                  Whether you’re craving a hearty breakfast to start your day or a flavorful lunch to energize you, Pearl Spoon offers something for everyone. 
+                  Come and experience our dedication to quality, flavor, and exceptional service.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5" style="background-color: white; color: rgb(34, 34, 34);">
+        <div class="container">
+            <h2 class="text-center">We are fully operational during Loadshedding</h2>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p><strong>Address:</strong> 44 Belevedere Road Claremont</p>
+                        <p><strong>Trading Hours:</strong><br>
+                            Monday - Saturday: 8am - 5pm<br>
+                            Sunday: 8am - 2pm
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p><strong>Contact Info:</strong><br>
+                            Landline: 021 839 2692<br>
+                            Cell: 073 708 7802<br>
+                            WhatsApp Orders: 061 166 2399
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
